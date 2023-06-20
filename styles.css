@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root{
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+  --clr-very-pale-blue: hsl(225, 100%, 98%);
+  --clr-desaturated-blue: hsl(224, 23%, 55%);
+  --clr-Dark-blue: hsl(223, 47%, 23%);
+}
+
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--clr-pale-blue);
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 360px;
+  border-radius: 10px;
+  margin: auto;
+
+  background-color: var(--clr-very-pale-blue);
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.12);
+
+  text-align: center;
+
+  padding-bottom: 1rem;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+.description {
+  width: 75%; 
+  margin: 0.5rem auto;
+  line-height: 1.5;
+  color: var(--clr-desaturated-blue);
+}
+
+.details-container {
+  width: 90%;
+  padding: 0.75rem;
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: rgb(224, 232, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plan {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.price {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--clr-desaturated-blue);
+}
+
+.change-link {
+color: var(--clr-bright-blue);
+}
+
+.change-link:hover {
+  opacity: 0.75;
+}
+
+.btn-pay {
+  display: block;
+  width: 90%;
+  margin: 1rem; 
+  padding: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  background-color: var(--clr-bright-blue);
+  border-radius: 16px;
+  border-color: #ffff;
+  box-shadow: none;
+ color: #ffff;
+}
+
+.btn-pay:hover {
+  opacity: 0.75;
+  cursor: pointer;
+  fon
+}
+
+
+
+.cancel-link{
+  margin: 1rem;
+  color: var(--clr--desatyrated-blue);
+  text-decoration: none;
+}
+  
+
+.cancel-link:hover{
+  color: var(--clr-dark-blue);
+}
